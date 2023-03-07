@@ -1,0 +1,7 @@
+temp = eval(input("Enter temperature in centigrade: "))
+if (temp < 0):  print("Freezing weather")
+elif (temp >= 0 and temp <= 9):  print("Very Cold weather")
+elif (temp >= 10 and temp <= 19):  print("Cold weather")
+elif (temp >= 20 and temp <= 29):  print("Normal in Temp")
+elif (temp >= 30 and temp <= 39):  print("Its Hot")
+elif (temp >= 40):  print("Its Very Hot")
